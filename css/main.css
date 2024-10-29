@@ -539,6 +539,7 @@ background-image: linear-gradient(to right, #8750f7 0%, #ffffff 100%);
 .block-skills .content{
     border-radius: 30px 120px;
     padding: 60px;
+    background-color: var(--main-color-hover);
 }
 
 .block-skills .item .img img{
