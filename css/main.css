@@ -53,7 +53,7 @@ header.navbar-fixed {
     position: relative;
     text-align: center;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 18px;
     color: #fff;
     margin-right: 30px;
     text-transform: capitalize;
@@ -63,9 +63,9 @@ header.navbar-fixed {
 }
 @media(max-width: 991px){ 
     .menu ul>li>a {
-        padding: 20px 18px;
+        padding: 12px 18px;
         text-align: left;
-        font-size: 18px;
+        font-size: 15px;
         margin-right: 0;
     }
     .menu ul .banner__socials{
@@ -102,8 +102,8 @@ header.navbar-fixed {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 80px;
-    height: 80px;
+    width: 40px;
+    height: 65px;
     cursor: pointer;
     transition: all 0.3s ease-in;
     position: relative;
@@ -197,7 +197,7 @@ header.navbar-fixed {
     margin: 5px 0 20px 0;
 }
 .block-about .wrap-info .name{
-    font-size: 36px;
+    font-size: 24px;
 }
 .block-about .wrap-info .short_info{margin-bottom: 30px;}
 .block-about .intro_text svg {
@@ -236,9 +236,10 @@ header.navbar-fixed {
 }
 .btn-act{
     display: inline-block;
-    font-size: 26px;
+    font-size: 22px;
     font-weight: 600;
-    padding: 17px 40px;
+    padding: 12px 30px;
+    /* max-width: max-content; */
     text-align: center;
     margin-top: 30px;
     background-color: var(--main-color-hover);
@@ -437,7 +438,7 @@ background-image: linear-gradient(to right, #8750f7 0%, #ffffff 100%);
 .block-exp .row:nth-of-type(2n) .wrap-info{
     text-align: left;
 }
-.block-exp .wrap-info h5{font-size: 45px; margin-bottom: 9px;}
+.block-exp .wrap-info h5{font-size: 45px;margin-bottom: 9px;}
 .decor {
     position: absolute;
     top: 0;
@@ -574,7 +575,7 @@ footer{
     margin-bottom: 100px;
 }
 footer .footer_title{
-    font-size: 60px;
+    font-size: 45px;
     margin-bottom: 30px;
 }
 @media(min-width: 992px){ 
