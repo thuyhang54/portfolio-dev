@@ -213,6 +213,11 @@ header.navbar-fixed {
     z-index: -1;
     animation: move-left-right 5s infinite alternate ease-in-out;
 }
+@media(max-width: 767px){ 
+    .block-about .intro_text svg {
+       top: 70px;
+    }
+}
 .block-about .intro_text svg text {
     text-transform: uppercase;
     stroke-width: 6.2px;

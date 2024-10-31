@@ -28,7 +28,7 @@ body {
 
 .container {
     width: 100% !important;
-    max-width:  1200px;
+    max-width:  1440px;
 }
 ul{
     list-style: none;
@@ -74,7 +74,7 @@ img{
 }
 .block-title {
     color: #fff;
-    font-size: 60px;
+    font-size: 45px;
     position: relative;
     padding-left: 80px; 
     text-transform: capitalize;
@@ -125,5 +125,3 @@ img{
   #overlay.show {
     display: initial;
   }
-
-
