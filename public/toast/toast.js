@@ -39,7 +39,7 @@ function toast({title='', message='', state='info', duration=3000}) {
           title: 'Đang tải CV...',
           message:'Vui lòng kiểm tra hộp thoại tải xuống.',
           state:'success',
-          duration: 3000000,
+          duration: 3000,
       });
   }
   
