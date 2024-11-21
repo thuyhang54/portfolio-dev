@@ -50,7 +50,6 @@ header.navbar-fixed {
 .menu ul>li>a {
     padding: 28px 18px;
     display: block;
-    position: relative;
     text-align: center;
     font-weight: 600;
     font-size: 18px;
@@ -150,6 +149,9 @@ header.navbar-fixed {
         justify-content: flex-end;
         align-items: center;
     }
+    .menu ul>li>a {
+        position: relative;
+    }
     .menu ul>li>a::before {
         content: "";
         position: absolute;
@@ -206,7 +208,6 @@ header.navbar-fixed {
     height: 100%;
     left: 0;
     top: 50%;
-    transform: translateY(-50%);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -400,8 +401,9 @@ header.navbar-fixed {
     color: #fff;
     text-align: center;
     text-transform: uppercase;
-    margin: 30px 0 0 0;
+    margin: 25px 0 0 0;
     font-weight: 800;
+    font-size: 35px;
 }
 
 
@@ -420,6 +422,7 @@ header.navbar-fixed {
     border-radius: 120px 30px;
 }
 .block-exp .block-title{
+    font-size: 33px;
     padding-left: 0;
     text-align: center;
 }
